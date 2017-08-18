@@ -6,8 +6,6 @@
 
 Iannis Xenakis
 
-![l'ospite schematics](https://github.com/leandroestrella/l-ospite/blob/master/ospite_schematics.png)
-
 Software:
 - Arduino
 
@@ -29,3 +27,5 @@ Dependencies:
 Links & Documentation:
 - Installation: [uploading]
 - Work in progress: [uploading]
+
+![l'ospite schematics](https://github.com/leandroestrella/l-ospite/blob/master/ospite_schematics.png)
