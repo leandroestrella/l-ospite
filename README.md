@@ -1,12 +1,12 @@
 # L'Ospite
 
-![l'ospite animated gif](https://github.com/leandrostar/l-ospite/blob/master/ospite.gif)
+![l'ospite animated gif](https://github.com/leandroestrella/l-ospite/blob/master/ospite.gif)
 
 >*It is necessary - in order to fully understand past and present universals, and thus to prepare for the future - to distinguish between structures, architectures, resonant organisms and their temporal manifestations.*
 
 Iannis Xenakis
 
-![l'ospite schematics](https://github.com/leandrostar/l-ospite/blob/master/ospite_schematics.png)
+![l'ospite schematics](https://github.com/leandroestrella/l-ospite/blob/master/ospite_schematics.png)
 
 Software:
 - Arduino
