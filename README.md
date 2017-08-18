@@ -4,7 +4,7 @@
 
 >*It is necessary - in order to fully understand past and present universals, and thus to prepare for the future - to distinguish between structures, architectures, resonant organisms and their temporal manifestations.*
 
-Iannis Xenakis
+<p align="right">Iannis Xenakis</p>
 
 Software:
 - Arduino
@@ -22,7 +22,7 @@ Hardware:
 - 20k ohm Resistor
 
 Dependencies:
-- Morse Code Library for Arduino with Non-Blocking Sending (https://github.com/markfickett/arduinomorse) by Mark Fickett
+- Morse Code Library for Arduino (https://github.com/markfickett/arduinomorse) by Mark Fickett
 
 Links & Documentation:
 - Installation: [uploading]
