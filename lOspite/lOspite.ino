@@ -20,27 +20,27 @@ LEDMorseSender cqSender(PIN_STATUS);
 
 void setup() {
   cqSender.setup();
-  Serial.begin(9600); // initialize serial:
-  while (!Serial) {
+  Serial1.begin(9600); // initialize serial:
+  while (!Serial1) {
     ; // wait for serial port to connect. Needed for native USB port only
   }
-  Serial.println("host ready");
+  Serial1.println("ospite ready");
   inputString.reserve(200); // reserve 200 bytes for the inputString:
 }
 
 void loop() {
   /*
-  SerialEvent occurs whenever a new data comes in the
-  hardware serial RX.  This routine is run between each
-  time loop() runs, so using delay inside loop can delay
-  response.  Multiple bytes of data may be available.
+    SerialEvent occurs whenever a new data comes in the
+    hardware serial RX.  This routine is run between each
+    time loop() runs, so using delay inside loop can delay
+    response.  Multiple bytes of data may be available.
   */
-  while (Serial.available()) {
-    char inChar = (char)Serial.read(); // get the new byte
+  while (Serial1.available()) {
+    char inChar = (char)Serial1.read(); // get the new byte
     inputString += inChar;             // add it to the inputString
     /*
-    if the incoming character is a newline, set a flag
-    so the main loop can do something about it:
+      if the incoming character is a newline, set a flag
+      so the main loop can do something about it:
     */
     if (inChar == '\n') {
       stringComplete = true;
@@ -49,11 +49,11 @@ void loop() {
   
   /* print the string when a newline arrives: */
   if (stringComplete) {
-    Serial.println(inputString);
+    Serial1.println(inputString);
     cqSender.setMessage(inputString);
     cqSender.sendBlocking();
     /* clear the string: */
-    inputString = "yes";
+    inputString = "";
     stringComplete = false;
   }
 }
