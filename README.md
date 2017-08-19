@@ -26,7 +26,7 @@ Dependencies:
 
 Links & Documentation:
 - Installation: [uploading]
-- Work in progress: [uploading]
+- Development: [uploading]
 
 
 ![l'ospite schematics](https://github.com/leandroestrella/l-ospite/blob/master/ospite_schematics.png)
