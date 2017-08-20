@@ -25,8 +25,7 @@ Dependencies:
 - Morse Code Library for Arduino (https://github.com/markfickett/arduinomorse) by Mark Fickett
 
 Links & Documentation:
+- Development: https://flic.kr/s/aHsm3cBLLK
 - Installation: [uploading]
-- Development: [uploading]
-
 
 ![l'ospite schematics](https://github.com/leandroestrella/l-ospite/blob/master/ospite_schematics.png)
