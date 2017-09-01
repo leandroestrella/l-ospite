@@ -26,6 +26,6 @@ Dependencies:
 
 Links & Documentation:
 - Development: https://flic.kr/s/aHsm3cBLLK
-- Installation: [uploading]
+- Installation: [https://vimeo.com/232104320 / https://youtu.be/-SSSLiWdA6M]
 
 ![l'ospite schematics](https://github.com/leandroestrella/l-ospite/blob/master/ospite_schematics.png)
